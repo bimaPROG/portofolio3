@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bima Anggara | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            BIMA<span>.</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#skill">Skill</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">
+            Let's Talk
+        </a>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <div class="small-title">
+                    <span></span>
+                    STUDENT • DEVELOPER • CREATOR
+                </div>
+
+                <h1>
+                    Bima<br>
+                    <span>Anggara</span>
+                </h1>
+
+                <p class="hero-description">
+                    Pelajar SMK Informatika CBI jurusan PPLG yang
+                    tertarik pada dunia programming, website,
+                    aplikasi, dan teknologi.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#project" class="button primary">
+                        Lihat Project
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="button secondary">
+                        Tentang Saya
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                
+                <img src="bima.jpeg" alt="Foto Bima Anggara">
+
+                <div class="image-label">
+                    <span>XI PPLG 1</span>
+                    <small>SMK Informatika CBI</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MARQUEE
+        ========================== -->
+
+        <div class="marquee">
+
+            <div class="marquee-content">
+
+                <span>WEB DEVELOPMENT</span>
+                <b>✦</b>
+
+                <span>PROGRAMMING</span>
+                <b>✦</b>
+
+                <span>UI / UX</span>
+                <b>✦</b>
+
+                <span>CREATIVE TECHNOLOGY</span>
+                <b>✦</b>
+
+                <span>WEB DEVELOPMENT</span>
+                <b>✦</b>
+
+                <span>PROGRAMMING</span>
+                <b>✦</b>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about" class="section about-section">
+
+            <div class="section-number">
+                01 / ABOUT
+            </div>
+
+            <div class="about-content">
+
+                <div>
+                    <p class="green-text">
+                        HELLO, I'M BIMA
+                    </p>
+
+                    <h2>
+                        Belajar teknologi,
+                        <span>membangun sesuatu.</span>
+                    </h2>
+                </div>
+
+                <div class="about-text">
+
+                    <p>
+                        Saya adalah siswa SMK Informatika CBI
+                        kelas XI PPLG 1. Saya memiliki ketertarikan
+                        terhadap dunia pemrograman dan teknologi.
+                    </p>
+
+                    <p>
+                        Saat ini saya sedang mempelajari berbagai
+                        hal mengenai pembuatan aplikasi, website,
+                        database, UI/UX, serta perangkat berbasis
+                        mikrokontroler.
+                    </p>
+
+                    <p>
+                        Bagi saya, programming bukan hanya tentang
+                        menulis kode, tetapi juga tentang membuat
+                        solusi dari sebuah masalah.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- INFO CARDS -->
+
+            <div class="info-grid">
+
+                <div class="info-card">
+                    <span>01</span>
+                    <h3>Nama</h3>
+                    <p>Bima Anggara</p>
+                </div>
+
+                <div class="info-card">
+                    <span>02</span>
+                    <h3>Sekolah</h3>
+                    <p>SMK Informatika CBI</p>
+                </div>
+
+                <div class="info-card">
+                    <span>03</span>
+                    <h3>Kelas</h3>
+                    <p>XI PPLG 1</p>
+                </div>
+
+                <div class="info-card">
+                    <span>04</span>
+                    <h3>Jurusan</h3>
+                    <p>PPLG</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECT
+        ========================== -->
+
+        <section id="project" class="section project-section">
+
+            <div class="section-top">
+
+                <div class="section-number">
+                    02 / PROJECT
+                </div>
+
+                <p>
+                    Beberapa project yang pernah saya buat
+                    selama belajar programming dan teknologi.
+                </p>
+
+            </div>
+
+            <h2 class="big-title">
+                Selected<br>
+                <span>Projects</span>
+            </h2>
+
+
+            <div class="project-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <article class="project-card"
+                    onclick="openProject(0)">
+
+                    <div class="project-image">
+
+                        <img
+                            src="MYTUGAS.png"
+                            alt="Project MyTugas"
+                        >
+
+                        <div class="project-number">
+                            01
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>MyTugas</h3>
+
+                            <p>
+                                Aplikasi pengingat tugas
+                                untuk membantu siswa mengatur
+                                tugas sekolah.
+                            </p>
+                        </div>
+
+                        <span class="arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card"
+                    onclick="openProject(1)">
+
+                    <div class="project-image">
+
+                        <img
+                            src="kebakaran.jpeg"
+                            alt="Project Mitigasi Bencana"
+                        >
+
+                        <div class="project-number">
+                            02
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>Mitigasi Bencana</h3>
+
+                            <p>
+                                Prototype alat untuk membantu
+                                memberikan peringatan terhadap
+                                potensi bencana.
+                            </p>
+                        </div>
+
+                        <span class="arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+
+                <article class="project-card"
+                    onclick="openProject(2)">
+
+                    <div class="project-image">
+
+                        <img
+                            src="website.png"
+                            alt="Project Website"
+                        >
+
+                        <div class="project-number">
+                            03
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>Website</h3>
+
+                            <p>
+                                Website yang dibuat untuk
+                                belajar HTML, CSS dan JavaScript.
+                            </p>
+                        </div>
+
+                        <span class="arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 4 -->
+
+                <article class="project-card"
+                    onclick="openProject(3)">
+
+                    <div class="project-image">
+
+                        <img
+                            src="penyiraman.jpeg"
+                            alt="Project Alat Otomatis"
+                        >
+
+                        <div class="project-number">
+                            04
+                        </div>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <div>
+                            <h3>Alat penyiram Otomatis</h3>
+
+                            <p>
+                                Project perangkat otomatis
+                                berbasis Arduino dan sensor.
+                            </p>
+                        </div>
+
+                        <span class="arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILL
+        ========================== -->
+
+        <section id="skill" class="section skill-section">
+
+            <div class="section-number">
+                03 / SKILLS
+            </div>
+
+            <div class="skill-heading">
+
+                <h2>
+                    Tools I<br>
+                    <span>Work With</span>
+                </h2>
+
+                <p>
+                    Teknologi yang sedang saya pelajari
+                    dan gunakan dalam membuat project.
+                </p>
+
+            </div>
+
+
+            <div class="skills-list">
+
+                <div class="skill-item">
+                    <span>01</span>
+                    <strong>HTML</strong>
+                    <small>Web Structure</small>
+                </div>
+
+                <div class="skill-item">
+                    <span>02</span>
+                    <strong>CSS</strong>
+                    <small>Web Design</small>
+                </div>
+
+                <div class="skill-item">
+                    <span>03</span>
+                    <strong>JavaScript</strong>
+                    <small>Web Interaction</small>
+                </div>
+
+                <div class="skill-item">
+                    <span>04</span>
+                    <strong>PHP</strong>
+                    <small>Backend</small>
+                </div>
+
+                <div class="skill-item">
+                    <span>05</span>
+                    <strong>Kotlin</strong>
+                    <small>Android Development</small>
+                </div>
+
+                <div class="skill-item">
+                    <span>06</span>
+                    <strong>MySQL</strong>
+                    <small>Database</small>
+                </div>
+
+                <div class="skill-item">
+                    <span>07</span>
+                    <strong>SQLite</strong>
+                    <small>Local Database</small>
+                </div>
+
+                <div class="skill-item">
+                    <span>08</span>
+                    <strong>Arduino</strong>
+                    <small>IoT & Hardware</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+
+        <section class="section service-section">
+
+            <div class="section-number">
+                04 / WHAT I DO
+            </div>
+
+            <h2 class="big-title">
+                What I<br>
+                <span>Can Build</span>
+            </h2>
+
+
+            <div class="service-grid">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        01
+                    </div>
+
+                    <h3>Website</h3>
+
+                    <p>
+                        Membuat website sederhana,
+                        portfolio, landing page,
+                        dan website sekolah.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        02
+                    </div>
+
+                    <h3>Application</h3>
+
+                    <p>
+                        Membuat konsep aplikasi mobile
+                        menggunakan Kotlin dan teknologi
+                        pengembangan aplikasi.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        03
+                    </div>
+
+                    <h3>UI / UX</h3>
+
+                    <p>
+                        Mendesain tampilan aplikasi
+                        agar lebih mudah digunakan
+                        dan nyaman dilihat.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        04
+                    </div>
+
+                    <h3>Arduino</h3>
+
+                    <p>
+                        Membuat prototype alat otomatis
+                        menggunakan Arduino, sensor,
+                        dan komponen elektronik.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MINI GAME
+        ========================== -->
+
+        <section class="game-section">
+
+            <div class="game-container">
+
+                <div class="section-number">
+                    05 / MINI GAME
+                </div>
+
+                <h2>
+                    Catch The<br>
+                    <span>Green Dot</span>
+                </h2>
+
+                <p>
+                    Coba klik titik hijau sebanyak mungkin
+                    dalam waktu 20 detik.
+                </p>
+
+                <div class="game-info">
+
+                    <div>
+                        Score
+                        <strong id="score">0</strong>
+                    </div>
+
+                    <div>
+                        Time
+                        <strong id="time">20</strong>
+                    </div>
+
+                </div>
+
+                <div id="gameArea">
+
+                    <div id="gameDot"></div>
+
+                    <div id="gameStart">
+                        Klik untuk mulai
+                    </div>
+
+                </div>
+
+                <button
+                    class="game-button"
+                    onclick="startGame()">
+                    START GAME
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="section-number">
+                06 / CONTACT
+            </div>
+
+            <h2>
+                Let's create<br>
+                <span>something.</span>
+            </h2>
+
+            <p>
+                Jika ingin mengetahui lebih banyak tentang
+                project atau ingin bekerja sama, silakan
+                hubungi saya.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="mailto:sktbims@email.com">
+                    Email
+                    <span>↗</span>
+                </a>
+
+                <a href="https://www.instagram.com/beem_weee/" target="_blank">
+                    Instagram
+                    <span>↗</span>
+                </a>
+
+                <a href="https://www.tiktok.com/@ganyembung" onclick="showMessage()">
+                    tiktok
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div>
+            © 2026 Bima Anggara
+        </div>
+
+        <div>
+            XI PPLG 1 • SMK Informatika CBI
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         PROJECT MODAL
+    ========================== -->
+
+    <div id="projectModal" class="modal">
+
+        <div class="modal-content">
+
+            <button
+                class="close-modal"
+                onclick="closeProject()">
+                ×
+            </button>
+
+            <img
+                id="modalImage"
+                src=""
+                alt="Project">
+
+            <div class="modal-text">
+
+                <span id="modalNumber">
+                    PROJECT 01
+                </span>
+
+                <h2 id="modalTitle">
+                    MyTugas
+                </h2>
+
+                <p id="modalDescription">
+                    Deskripsi project.
+                </p>
+
+                <div
+                    id="modalTech"
+                    class="modal-tech">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
